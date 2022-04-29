@@ -6,14 +6,7 @@ This is an [OnDeck](https://ondeck.com/) assessment project.
 
 - Install [Node.Js](https://nodejs.dev/learn/how-to-install-nodejs) if not intalled.
 
-For Ubuntu:
-
-```bash
- sudo apt update
- sudo apt install nodejs npm
- node -v # confirm that Node.Js install was successful
- npm -v # confirm that npm install was successful
-```
+For [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 
 - Install MySQL if not installed. Create a database using any database server of your choice. Create a new user and password if you don't want to an existing one. Note that the application was tested on [MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/).
 
@@ -40,12 +33,16 @@ Install redis on Ubuntu:
 
 - Clone the repository.
 
-- To change into the project run `cd ondeck`
+- To change into the project run `cd user-manager`
 
 - Run `npm install`
 
+- Make a new copy of .env.sample and change the name to .env Run `cp .env.sample .env`
+
+- Edit the content of .env to match your system properties. To avoid any incidence that could lead to a Civil War I would not give example with any. Even me and family would go with vim 🙅🏾‍♂️
+
 - Run `node mailer/email.js`
 
-- Open another terminal and run `npm run build-start` to build and start the application. Run `npm start` on subsequent start of the application.
+- Open another terminal and run `npm run build-start` to build and start the application. Although subsequently to start the application you would only need to run `npm start`. Except you have pulled a new version from the git repository and want to rebuild the project.
 
 I understand that the set up could be automated, I intend to that when I am less busy.
