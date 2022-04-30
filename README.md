@@ -1,10 +1,10 @@
 # VIP Manager
 
-This is an [OnDeck](https://ondeck.com/) assessment project.
+This is an [OnDeck](https://ondeck.com/) assessment project. Even though for me it is a first experience with [Next.Js](https://nextjs.org)
 
 ## Project set up
 
-- Install [Node.Js](https://nodejs.dev/learn/how-to-install-nodejs) if not intalled.
+- Install [Node.Js](https://nodejs.dev/learn/how-to-install-nodejs) if not installed.
 
 For [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 
