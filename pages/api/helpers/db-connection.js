@@ -12,8 +12,8 @@ var sequelise = new Sequelize(
     dbUser,
     pword,
     {
-        host: host,
-        dialect: dialect, 
+        host: 'localhost',
+        dialect: 'mysql', 
     }
 );
 

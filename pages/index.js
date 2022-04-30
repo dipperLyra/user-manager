@@ -23,7 +23,7 @@ export default function Home() {
         <Form />
 
         <p className={styles.description}>
-          <Link href="/network">
+          <Link href="/members">
             <a>Peep our existing VIPs 👀</a>
           </Link>
         </p>
