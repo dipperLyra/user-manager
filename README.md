@@ -39,7 +39,7 @@ Install redis on Ubuntu:
 
 - Make a new copy of .env.sample and change the name to .env Run `cp .env.sample .env`
 
-- Edit the content of .env to match your system properties. To avoid any incidence that could lead to a Civil War I would not give example with any. Even me and family would go with vim 🙅🏾‍♂️
+- Edit the content of .env to match your system properties. To avoid any incidence that could lead to a Civil War I would not give example with any. Even though my family and I would go with vim 🙅🏾‍♂️
 
 - Run `node mailer/email.js`
 
