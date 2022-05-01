@@ -36,7 +36,7 @@ export default function Network() {
 
         <p className={styles.description}>
           <Link href="/network">
-            <a>With some more work 🏋🏽 these would also join us: </a>
+            <a>Sent Email but yet to join</a>
           </Link>
         </p>
         <DataTable value={data.inActive}>
