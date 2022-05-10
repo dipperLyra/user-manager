@@ -8,9 +8,9 @@ This is an [OnDeck](https://ondeck.com/) assessment project and my first experie
 
 - Set up database
 
-[Guide for Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
+[Guide to install MySQL on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04)
 
-[Visit MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/) for other systems.
+[Visit MySQL's official page](https://dev.mysql.com/doc/mysql-getting-started/en/) for other systems.
 
 Note that the application was tested on [MySQL](https://dev.mysql.com/doc/mysql-getting-started/en/)
 
@@ -120,16 +120,20 @@ In summary this project interact with other systems through the API and would in
 ### Project in use
 
 - Navigate to eche.com.ng or your localhost if you are running a local setup.
+![Alt landing page](./article/images/landing_page.png "landing page")
 
 - Enter your name and email and click the 'Save' button.
+![Alt VIP form](./article/images/vip_form.png "vip form page")
 
 - Check your email for a message from eche@eche.com.ng. If you are running a local set up it would use the email address in your mail settings in the .env file.
+![Alt Email invite](./article/images/email.png "vip email invite")
 
 - Click on the link sent to your email to accept the invite.
 
 - Check the webpage to see that your name and email now appears as one of the members of OnDeck network.
+![Alt List of OnDeck VIP](./article/images/network.png "list of OnDeck VIP members")
 
-The members page also track people that are yet to join the network. An improvement in the system could be to add a button for the OnDeck network manager to send email reminders from the table.
+The members page also tracks people that are yet to join the network. An improvement in the system could be to add a button for the OnDeck network manager to send email reminders from the table.
 
 ### Summary
 
